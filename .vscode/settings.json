@@ -1,0 +1,59 @@
+{
+    "cSpell.words": [
+        "apimachinery",
+        "appslisters",
+        "cbor",
+        "clientcmd",
+        "clientset",
+        "davecgh",
+        "easyjson",
+        "emicklei",
+        "evanphx",
+        "fxamacker",
+        "gengo",
+        "goautoneg",
+        "godebug",
+        "gopkg",
+        "josharian",
+        "jsonpointer",
+        "jsonreference",
+        "klog",
+        "ktesting",
+        "kubeactions",
+        "kubeclient",
+        "kubeconfig",
+        "kubeinformers",
+        "kubeobjects",
+        "logr",
+        "mailru",
+        "metav",
+        "munnerz",
+        "pflag",
+        "randfill",
+        "samplecontroller",
+        "samplescheme",
+        "samplev",
+        "sfake",
+        "typedcorev"
+    ],
+    "go.useLanguageServer": true,
+    "go.toolsManagement.autoUpdate": true,
+    "go.gotoSymbol.includeImports": true,
+    "go.gotoSymbol.includeGoroot": true,
+    "gopls": {
+        "ui.semanticTokens": true,
+        "ui.codelenses": {
+            "generate": true,
+            "gc_details": false,
+            "regenerate_cgo": true,
+            "tidy": true,
+            "upgrade_dependency": true,
+            "vendor": true,
+            "test": true
+        }
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
+}
